@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Latitude</title>
+  <title>Temperature vs. Latitude</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -67,9 +67,9 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="index.html">Home</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+          <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="temp.html">Temperature vs. Latitude</a></li>
+              <li class="active"><a href="temp.html">Temperature vs. Latitude</a></li>
               <li><a href="hum.html">Humidity vs. Latitude</a></li>
               <li><a href="cloud.html">Cloudiness vs. Latitude</a></li>
               <li><a href="wind.html">Wind Speed vs. Latitude</a></li>
@@ -88,18 +88,10 @@
     <div class="row">
       <div class="col-md-7">
         <div class="well">
-          <h1>Summary: Weather Analysis</h1>
+          <h1>Temperature vs. Latitude</h1>
           <hr style="height:1px;border:none;color:#333;background-color:#333;">
           <img class="img-fluid img-thumbnail" src="Resources/assets/images/Fig1.png"><br><br>
-          <p class="text-left">
-            In this project, we created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator.
-            To accomplish this, we used a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
-          </p>
-          <br>
-          <p class="text-left">
-            Lastly, we built a series of scatter plots using matplotlib to showcase the relationships between temperature (F), humidity (%), wind speed (mph), and latitude.
-            This site provides the source data and visualizations created as part of our analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-          </p>
+          <p class="text-left">As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth.</p>
         </div>
       </div>
       <div class="col-md-5">
@@ -114,7 +106,7 @@
             <div class="col-md-6">
               <div class="thumbnail">
                 <a href="temp.html">
-                  <img class="rounded mx-auto d-block" src="Resources\assets\images\Fig1.png" alt="Visualizations" style="width:100%">
+                  <img class="rounded mx-auto d-block" src="Resources\assets\images\Fig1.png" alt="Visualizations" style="width:100%;border:5px solid grey;">
                   <div class="caption">
                     <p>Temperature <br> vs. <br> Latitude</p>
                   </div>

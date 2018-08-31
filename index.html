@@ -23,6 +23,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/freelancer.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
 
 </head>
 
@@ -58,77 +59,83 @@
       <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="Jackie">
       <h1 class="text-uppercase mb-0">Jackie Dong</h1>
       <hr class="star-light">
-      <h2 class="font-weight-light mb-0">Data Scraping - Processing - Analysis - Visualization</h2>
+      <div class="row">
+        <div class="col-lg-11 mx-auto">
+          <div class="row">
+            <div class="col-lg-3 mx-auto">
+              <h2 class="font-weight-light mb-0 responsive-width-rg"><i class="fa fa-check responsive-width-rg"></i> Web Scraping</h2>
+            </div>
+            <div class="col-lg-3 mx-auto">
+              <h2 class="font-weight-light mb-0 responsive-width-rg"><i class="fa fa-check responsive-width-rg"></i> Databases</h2>
+            </div>
+            <div class="col-lg-3 mx-auto">
+              <h2 class="font-weight-light mb-0 responsive-width-rg"><i class="fa fa-check responsive-width-rg"></i> Data Analysis</h2>
+            </div>
+            <div class="col-lg-3 mx-auto">
+              <h2 class="font-weight-light mb-0 responsive-width-rg"><i class="fa fa-check responsive-width-rg"></i> Visualization</h2>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
   <!-- Portfolio Grid Section -->
   <section class="portfolio" id="portfolio">
-    <div class="container">
+    <div class="mx-4">
       <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
       <hr class="star-dark mb-5">
       <div class="row">
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-3">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/port_img/youtube.png" alt="Youtube Trending Videos">
-            <div class="caption text-center pt-2">
-              <h5 class="font-weight-light" style="color:black">Youtube Videos Analysis</h5>
+            <img class="img-fluid" src="img/port_img/youtube_resize.png" alt="Youtube Trending Videos">
+            <div class="caption text-center mt-2">
+              <h5 class="font-weight-light" style="color:black">Youtube Videos Analysis with Pandas and Matplotlib</h5>
             </div>
           </a>
         </div>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-3">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+            <img class="img-fluid" src="img/port_img/mars-vector.jpg" alt="mars">
+            <div class="caption text-center mt-2">
+              <h5 class="font-weight-light" style="color:black">Mars Data Scraping Web Application</h5>
+            </div>
           </a>
         </div>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-3">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+            <img class="img-fluid bg-dark" src="img/port_img/hawaii.png" alt="Hawaii">
+            <div class="caption text-center mt-2">
+              <h5 class="font-weight-light" style="color:black">Honolulu Climate SQL Database and FLask API</h5>
+            </div>
           </a>
         </div>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-3">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/game.png" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
+            <img class="img-fluid bg-info" src="img/port_img/cloud.png" alt="Cloud">
+            <div class="caption text-center mt-2">
+              <h5 class="font-weight-light" style="color:black">Weather API and JSON Traversals</h5>
             </div>
-            <img class="img-fluid" src="img/portfolio/safe.png" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
           </a>
         </div>
       </div>
@@ -142,277 +149,362 @@
       <hr class="star-light mb-5">
       <div class="row">
         <div class="col-lg-4 ml-auto">
-          <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          <p class="lead">Hello visitor! My name is Jackie Dong and I am currently a student at University of Southern California, studying Applied Math. I am Canadian but I spent most of my life in China before I moved to Canada. My career interest lies mostly in the field of big data and machine learning.</p>
         </div>
         <div class="col-lg-4 mr-auto">
-          <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+          <p class="lead">I am interested in most sports but I am best at ping pong, as I trained semi-professionally in China. I also love to play and listen to the piano and am currently taking lessons at USC. Whether you're a student or a working professional, feel free to connect with me on any of the platforms below.</p>
         </div>
       </div>
       <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="#">
-          <i class="fa fa-download mr-2"></i>
-          Download Now!
+        <a class="btn btn-xl btn-outline-light js-scroll-trigger" href="#contact" onclick="this.blur();">
+          <i class="fa fa-handshake-o mr-2"></i>
+          Connect with me!
         </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-      <hr class="star-dark mb-5">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Name</label>
-                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Email Address</label>
-                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Phone Number</label>
-                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <br>
-            <div id="success"></div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
-            </div>
-          </form>
-        </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="footer text-center">
+  <footer class="footer text-center" id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 mb-5 mb-lg-0">
+        <div class="col-md-6 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">2215 John Daniel Drive
-            <br>Clark, MO 65243</p>
+          <p class="lead mb-0">University of Southern California
+            <br>Los Angeles, CA 90007</p>
           </div>
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
+          <div class="col-md-6 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Contact Me</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-google-plus"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/jackie-dong/">
                   <i class="fa fa-fw fa-linkedin"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-dribbble"></i>
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/amstqq">
+                  <i class="fa fa-fw fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="mailto:jiaqid@usc.edu">
+                  <i class="fa fa-fw fa-envelope"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/jackiedong.dong">
+                  <i class="fa fa-fw fa-facebook"></i>
                 </a>
               </li>
             </ul>
           </div>
-          <div class="col-md-4">
-            <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <div>
+          <small class="mb-4">Web Template From <a href="http://startbootstrap.com">Start Bootstrap</a>.</small>
+        </div>
+        <small>Copyright &copy; Jackie Dong 2018</small>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Youtube Videos Analysis</h2>
+              <div class="text-center mt-4">
+                <a class="btn btn-secondary btn-lg rounded-pill responsive-width" href="https://github.com/amstqq/trending_videos_analysis" target="_blank">
+                  <i class="fa fa-link mr-2"></i>
+                  Github Repository
+                </a>
+              </div>
+              <hr class="star-dark mb-5">
             </div>
           </div>
-        </div>
-      </footer>
-
-      <div class="copyright py-4 text-center text-white">
-        <div class="container">
-          <small>Copyright &copy; Your Website 2018</small>
-        </div>
-      </div>
-
-      <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-      <div class="scroll-to-top d-lg-none position-fixed ">
-        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-          <i class="fa fa-chevron-up"></i>
-        </a>
-      </div>
-
-      <!-- Portfolio Modals -->
-
-      <!-- Portfolio Modal 1 -->
-      <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-        <div class="portfolio-modal-dialog bg-white">
-          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-          </a>
-          <div class="container text-center">
-            <div class="row">
-              <div class="col-lg-10 mx-auto">
-                <h2 class="text-secondary text-uppercase mb-0">Youtube Videos Analysis</h2>
-                <div class="text-center mt-4">
-                  <a class="btn btn-secondary btn-lg rounded-pill responsive-width" href="https://github.com/amstqq/trending_videos_analysis" target="_blank">
-                    <i class="fa fa-link mr-2"></i>
-                    Github repository for this project
-                  </a>
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <p class="font-weight-light font-italic mb-4"><span class="font-weight-bold">Skills</span>: pandas, matplotlib, Youtube API, numpy, datetime, seaborn</p>
+              <img class="img-fluid mb-5" src="http://i0.wp.com/genytravel.com/wp-content/uploads/2015/09/800x445-trending-videos-on-youtube1.png?fit=800%2C445" alt="Youtube Trending Videos">
+              <p class="mb-4">
+                &emsp;This project examined some of the factors that impact whether a Youtube video trends using Python packages Pandas and Matplotlib. This page focuses specfically on analysis of publish date and trending date of videos. For full analysis, please visit <a href="https://docs.google.com/presentation/d/1Zz3tMyjvQufpL28Xpg46TWHZx77IytMGPCK1t1HwYm8/edit#slide=id.p" target="_blank">here</a>.
+              </p>
+              <hr class="mb-4">
+              <h2 class="mb-4">
+                <i class="fa fa-cog mr-3"></i>Data</h2>
+                <p class="mb-4">
+                  The data used in this project included a list of daily trending videos in the United States from November 2017 through June 2018, as seen from the following sample data table.</p>
+                  <h6>Sample Data Table</h6>
+                  <div class="table-responsive small">
+                    <table class="table table-hover table-condensed">
+                      <thead class="black white-text"><tr><th title="Field #1">index</th>
+                        <th title="Field #2">categoryId</th>
+                        <th title="Field #3">channelId</th>
+                        <th title="Field #4">channelTitle</th>
+                        <th title="Field #5">commentCount</th>
+                        <th title="Field #6">dislikeCount</th>
+                        <th title="Field #7">likeCount</th>
+                        <th title="Field #8">publishedAt</th>
+                        <th style="min-width:1000px" title="Field #9">tags</th>
+                        <th style="min-width:300px" title="Field #10">title</th>
+                        <th title="Field #11">videoId</th>
+                        <th title="Field #12">viewCount</th>
+                      </tr></thead>
+                      <tbody><tr>
+                        <td align="right">0</td>
+                        <td align="right">10</td>
+                        <td>UCLp8RBhQHu9wSsq62j_Md6A</td>
+                        <td>LuisFonsiVEVO</td>
+                        <td align="right">2538568</td>
+                        <td align="right">3319892</td>
+                        <td align="right">28617878</td>
+                        <td>2017-01-13T05:00:02.000Z</td>
+                        <td>
+                          [&#39;Luis&#39;, &#39;Fonsi&#39;, &#39;Despacito&#39;, &#39;UMLE&#39;, &#39;Latino&#39;, &#39;Latin&#39;, &#39;Pop&#39;, &#39;Luis Fonsi&#39;, &#39;DY&#39;, &#39;Daddy Yankee&#39;, &#39;Music Video&#39;, &#39;Oficial&#39;, &#39;Official Music Video&#39;, &#39;#Despacito&#39;, &#39;Zuleyka Rivera&#39;, &#39;Super model&#39;, &#39;Miss Universe&#39;, &#39;PR&#39;, &#39;Puerto Rico&#39;]
+                        </td>
+                        <td>Luis Fonsi - Despacito ft. Daddy Yankee</td>
+                        <td>kJQP7kiw5Fk</td>
+                        <td align="right">5284819665</td>
+                      </tr>
+                      <tr>
+                        <td align="right">1</td>
+                        <td align="right">10</td>
+                        <td>UCVp3nfGRxmMadNDuVbJSk8A</td>
+                        <td>Wiz Khalifa</td>
+                        <td align="right">1453069</td>
+                        <td align="right">685022</td>
+                        <td align="right">20578196</td>
+                        <td>2015-04-07T03:00:03.000Z</td>
+                        <td>
+                          [&#39;Wiz Khalifa&#39;, &#39;Blacc Hollywood&#39;, &#39;Taylor Gang&#39;, &#39;Atlantic Records&#39;, &#39;hip hop&#39;, &#39;wiz&#39;, &#39;khalifa&#39;, &#39;Pittsburgh&#39;, &#39;Los Angeles&#39;, &#39;taylorgangent&#39;, &#39;TGOD&#39;, &#39;taylor gang or die&#39;, &#39;Furious 7&#39;, &#39;paul walker&#39;, &#39;paul walker tribute&#39;, &#39;See You Again (Composition)&#39;, &#39;Fast &amp; Furious 6 (Award-Winning Work)&#39;, &#39;See you again&#39;, &#39;vin diesel&#39;, &#39;Michelle Rodriguez (Celebrity)&#39;, &#39;charlie puth&#39;, &#39;GRAMMYS&#39;]
+                        </td>
+                        <td>Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</td>
+                        <td>RgKAFK5djSk</td>
+                        <td align="right">3641854738</td>
+                      </tr>
+                      <tr>
+                        <td align="right">2</td>
+                        <td align="right">10</td>
+                        <td>UC0C-w0YjGpqDXGB8IHb662A</td>
+                        <td>Ed Sheeran</td>
+                        <td align="right">749757</td>
+                        <td align="right">956254</td>
+                        <td align="right">16809505</td>
+                        <td>2017-01-30T10:57:50.000Z</td>
+                        <td>
+                          [&#39;edsheeran&#39;, &#39;ed sheeran&#39;, &#39;acoustic&#39;, &#39;live&#39;, &#39;cover&#39;, &#39;official&#39;, &#39;remix&#39;, &#39;official video&#39;, &#39;lyrics&#39;, &#39;session&#39;, &#39;Ed&#39;, &#39;Sheeran&#39;, &#39;Shape&#39;, &#39;Of&#39;, &#39;You&#39;, &#39;Shape of You&#39;, &#39;Divide&#39;, &#39;Î•Î½Ï„ Î£Î·ÏÎ±Î½&#39;, &#39;Î•Î´ Î£Î·ÎµÎµÏÎ±Î½&#39;, &#39;Î•Î½Ï„ Î£Î¹ÏÎ±Î½&#39;]
+                        </td>
+                        <td>Ed Sheeran - Shape of You [Official Video]</td>
+                        <td>JGwWNGJdvx8</td>
+                        <td align="right">3604402347</td>
+                      </tr>
+                    </tbody></table>
+                  </div><br>
+                  <hr class="mb-4">
+                  <h2 class="mb-4">
+                    <i class="fa fa-cog mr-3"></i>Visualizations</h2>
+                    <div class="row">
+                      <div class="col-lg-7 mx-auto mb-4">
+                        <img class="img-fluid" src="img/port_img/date/avg_days_to_trend.png" alt="Average days to trend">
+                      </div>
+                      <div class="col-lg-5 mx-auto my-auto mb-4 text-left">
+                        <p>Shows and Nonprofits/Activism had the shortest average time to trending but also had very small samples. Travel & Events, Howto & Style, and Pets & Animals had the fastest time to trending among larger sample size categories. On the other hand, Autos and Film & Animation took the longest amount of days to trend on average.</p>
+                      </div>
+                      <div class="col-lg-7 mx-auto mb-4">
+                        <img class="img-fluid" src="img/port_img/date/avg_trending_days.png" alt="Average trending days">
+                      </div>
+                      <div class="col-lg-5 mx-auto my-auto mb-4 text-left">
+                        <p>Music and Gaming stayed trending for the longest number of days with large samples, whereas Sports and News/Politics trended for the shortest number of days.</p>
+                      </div>
+                      <div class="col-lg-12 mx-auto mb-4">
+                        <img class="img-fluid" src="img/port_img/date/views_by_month.png" alt="Views by month">
+                      </div>
+                      <div class="col-lg-12 mb-4">
+                        <p>This graph can be used to examine trend over time. Views for music category (orange line) started low in december but quickly took over as the most viewed category approaching may. Music videos are also more popular in the middle of a year than at the end of a year.</p>
+                      </div>
+                      <div class="col-lg-8 mx-auto mb-4">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <img class="img-fluid" src="img/port_img/date/cat_views_comparison.png" alt="cat comparison">
+                          </div>
+                          <div class="col-lg-12 my-auto">
+                            <p>Visualization above broken down by category. This graph shows events in a given industry can influence views.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 mb-4">
+                        <div class="row">
+                          <div class="col-lg-12 mx-auto my-auto">
+                            <img class="img-fluid" src="img/port_img/date/capture.png" alt="Movie views">
+                          </div>
+                          <div class="col-lg-12 mx-auto my-auto text-left">
+                            <p>Film/Animation videos gained more views approaching February as Oscar was held in the same month. Another rise in views happened in May when major movies such as infinity war and deadpool 2 are released.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center mt-4">
+                      <a class="btn btn-secondary btn-lg rounded-pill responsive-width" href="https://github.com/amstqq/trending_videos_analysis" target="_blank">
+                        <i class="fa fa-link mr-2"></i>
+                        Github Repository
+                      </a>
+                    </div>
+                    <hr class="star-dark mb-5">
+                    <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                      <i class="fa fa-close"></i>
+                      Close Project</a>
+                    </div>
+                  </div>
                 </div>
-                <hr class="star-dark mb-5">
               </div>
             </div>
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <img class="img-fluid mb-5" src="http://i0.wp.com/genytravel.com/wp-content/uploads/2015/09/800x445-trending-videos-on-youtube1.png?fit=800%2C445" alt="Youtube Trending Videos">
-                <p class="mb-4">
-                  &emsp;This project examined some of the factors that impact whether a Youtube video trends using Python packages Pandas and Matplotlib. This page focuses specfically on analysis of publish date and trending date of videos. For full analysis, please visit <a href="https://docs.google.com/presentation/d/1Zz3tMyjvQufpL28Xpg46TWHZx77IytMGPCK1t1HwYm8/edit#slide=id.p" target="_blank">here</a>.
-                </p>
-                <hr class="mb-4">
-                <h2 class="mb-4">
-                  <i class="fa fa-cog mr-3"></i>Data</h2>
-                  <p class="mb-4">
-                    The data used in this project included a list of daily trending videos in the United States from November 2017 through June 2018, as seen from the following sample data table.</p>
-                    <h6>Sample Data Table</h6>
-                    <div class="table-responsive small">
-                      <table class="table table-hover table-condensed">
-                        <thead class="black white-text"><tr><th title="Field #1">index</th>
-                          <th title="Field #2">categoryId</th>
-                          <th title="Field #3">channelId</th>
-                          <th title="Field #4">channelTitle</th>
-                          <th title="Field #5">commentCount</th>
-                          <th title="Field #6">dislikeCount</th>
-                          <th title="Field #7">likeCount</th>
-                          <th title="Field #8">publishedAt</th>
-                          <th style="min-width:1000px" title="Field #9">tags</th>
-                          <th style="min-width:300px" title="Field #10">title</th>
-                          <th title="Field #11">videoId</th>
-                          <th title="Field #12">viewCount</th>
-                        </tr></thead>
-                        <tbody><tr>
-                          <td align="right">0</td>
-                          <td align="right">10</td>
-                          <td>UCLp8RBhQHu9wSsq62j_Md6A</td>
-                          <td>LuisFonsiVEVO</td>
-                          <td align="right">2538568</td>
-                          <td align="right">3319892</td>
-                          <td align="right">28617878</td>
-                          <td>2017-01-13T05:00:02.000Z</td>
-                          <td>
-                            [&#39;Luis&#39;, &#39;Fonsi&#39;, &#39;Despacito&#39;, &#39;UMLE&#39;, &#39;Latino&#39;, &#39;Latin&#39;, &#39;Pop&#39;, &#39;Luis Fonsi&#39;, &#39;DY&#39;, &#39;Daddy Yankee&#39;, &#39;Music Video&#39;, &#39;Oficial&#39;, &#39;Official Music Video&#39;, &#39;#Despacito&#39;, &#39;Zuleyka Rivera&#39;, &#39;Super model&#39;, &#39;Miss Universe&#39;, &#39;PR&#39;, &#39;Puerto Rico&#39;]
-                          </td>
-                          <td>Luis Fonsi - Despacito ft. Daddy Yankee</td>
-                          <td>kJQP7kiw5Fk</td>
-                          <td align="right">5284819665</td>
-                        </tr>
-                        <tr>
-                          <td align="right">1</td>
-                          <td align="right">10</td>
-                          <td>UCVp3nfGRxmMadNDuVbJSk8A</td>
-                          <td>Wiz Khalifa</td>
-                          <td align="right">1453069</td>
-                          <td align="right">685022</td>
-                          <td align="right">20578196</td>
-                          <td>2015-04-07T03:00:03.000Z</td>
-                          <td>
-                            [&#39;Wiz Khalifa&#39;, &#39;Blacc Hollywood&#39;, &#39;Taylor Gang&#39;, &#39;Atlantic Records&#39;, &#39;hip hop&#39;, &#39;wiz&#39;, &#39;khalifa&#39;, &#39;Pittsburgh&#39;, &#39;Los Angeles&#39;, &#39;taylorgangent&#39;, &#39;TGOD&#39;, &#39;taylor gang or die&#39;, &#39;Furious 7&#39;, &#39;paul walker&#39;, &#39;paul walker tribute&#39;, &#39;See You Again (Composition)&#39;, &#39;Fast &amp; Furious 6 (Award-Winning Work)&#39;, &#39;See you again&#39;, &#39;vin diesel&#39;, &#39;Michelle Rodriguez (Celebrity)&#39;, &#39;charlie puth&#39;, &#39;GRAMMYS&#39;]
-                          </td>
-                          <td>Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</td>
-                          <td>RgKAFK5djSk</td>
-                          <td align="right">3641854738</td>
-                        </tr>
-                        <tr>
-                          <td align="right">2</td>
-                          <td align="right">10</td>
-                          <td>UC0C-w0YjGpqDXGB8IHb662A</td>
-                          <td>Ed Sheeran</td>
-                          <td align="right">749757</td>
-                          <td align="right">956254</td>
-                          <td align="right">16809505</td>
-                          <td>2017-01-30T10:57:50.000Z</td>
-                          <td>
-                            [&#39;edsheeran&#39;, &#39;ed sheeran&#39;, &#39;acoustic&#39;, &#39;live&#39;, &#39;cover&#39;, &#39;official&#39;, &#39;remix&#39;, &#39;official video&#39;, &#39;lyrics&#39;, &#39;session&#39;, &#39;Ed&#39;, &#39;Sheeran&#39;, &#39;Shape&#39;, &#39;Of&#39;, &#39;You&#39;, &#39;Shape of You&#39;, &#39;Divide&#39;, &#39;Î•Î½Ï„ Î£Î·ÏÎ±Î½&#39;, &#39;Î•Î´ Î£Î·ÎµÎµÏÎ±Î½&#39;, &#39;Î•Î½Ï„ Î£Î¹ÏÎ±Î½&#39;]
-                          </td>
-                          <td>Ed Sheeran - Shape of You [Official Video]</td>
-                          <td>JGwWNGJdvx8</td>
-                          <td align="right">3604402347</td>
-                        </tr>
-                      </tbody></table>
-                    </div><br>
-                    <hr class="mb-4">
-                    <h2 class="mb-4">
-                      <i class="fa fa-cog mr-3"></i>Visualizations</h2>
+
+            <!-- Portfolio Modal 2 -->
+            <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+              <div class="portfolio-modal-dialog bg-white">
+                <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+                  <i class="fa fa-3x fa-times"></i>
+                </a>
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                      <h2 class="text-secondary text-uppercase mb-0">Mars Data Scraping Web Application</h2>
+                      <div class="text-center mt-4">
+                        <a class="btn btn-secondary btn-lg rounded-pill responsive-width" href="https://github.com/amstqq/mars_web_scraping_project" target="_blank">
+                          <i class="fa fa-link mr-2"></i>
+                          Github Repository
+                        </a>
+                      </div>
+                      <hr class="star-dark mb-5">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                      <p class="font-weight-light font-italic mb-4"><span class="font-weight-bold">Skills</span>: Splinter, BeautifulSoup, Web Scraping, MongoDB Database, Flask Web App, Bootstrap</p>
+                      <img class="img-fluid mb-5" src="img/port_img/mars-vector.jpg" alt="mars">
+                      <p class="mb-4">
+                        &emsp;This project uses BeautifulSoup and Splinter to scrape various websites for data related to Mars and store the collected information into a MongoDB database. A Flask web application is subsequently developed to display the data in a Bootstrap webpage. Check out <a href="https://github.com/amstqq/mars_web_scraping_project"> Github repository of this project</a> for more information.
+                      </p>
+                      <hr class="mb-4">
+                      <h2 class="mb-4">
+                        <i class="fa fa-cog mr-3"></i>Flask Data Scraping Web App
+                      </h2>
                       <div class="row">
-                        <div class="col-lg-7 mx-auto mb-4">
-                          <img class="img-fluid" src="img/port_img/date/avg_days_to_trend.png" alt="Average days to trend">
+                        <div class="col-lg-12 mx-auto mb-4 border">
+                          <img class="img-fluid" src="img/port_img/mars/index.PNG" alt="index">
                         </div>
-                        <div class="col-lg-5 mx-auto my-auto mb-4 text-left">
-                          <p>Shows and Nonprofits/Activism had the shortest average time to trending but also had very small samples. Travel & Events, Howto & Style, and Pets & Animals had the fastest time to trending among larger sample size categories. On the other hand, Autos and Film & Animation took the longest amount of days to trend on average.</p>
+                        <div class="col-lg-12 mx-auto my-auto mb-4">
+                          <p>This is the landing page of the website. The table of contents card shows a list of information about mars that this site provides. One can click on the items displayed in table of contents to reach different sections of this site.</p>
                         </div>
-                        <div class="col-lg-7 mx-auto mb-4">
-                          <img class="img-fluid" src="img/port_img/date/avg_trending_days.png" alt="Average trending days">
-                        </div>
-                        <div class="col-lg-5 mx-auto my-auto mb-4 text-left">
-                          <p>Music and Gaming stayed trending for the longest number of days with large samples, whereas Sports and News/Politics trended for the shortest number of days.</p>
-                        </div>
-                        <div class="col-lg-12 mx-auto mb-4">
-                          <img class="img-fluid" src="img/port_img/date/views_by_month.png" alt="Views by month">
-                        </div>
-                        <div class="col-lg-12 mb-4">
-                          <p>This graph can be used to examine trend over time. Views for music category (orange line) started low in december but quickly took over as the most viewed category approaching may. Music videos are also more popular in the middle of a year than at the end of a year.</p>
-                        </div>
-                        <div class="col-lg-8 mx-auto mb-4">
+                        <div class="col-lg-6 mb-4">
                           <div class="row">
-                            <div class="col-lg-12">
-                              <img class="img-fluid" src="img/port_img/date/cat_views_comparison.png" alt="cat comparison">
+                            <div class="col-lg-12 mx-auto my-auto mb-4">
+                              <img class="img-fluid" src="img/port_img/mars/hem_before_scraping.PNG" alt="hem page">
                             </div>
-                            <div class="col-lg-12 my-auto">
-                              <p>Visualization above broken down by category. This graph shows events in a given industry can influence views.
+                            <div class="col-lg-12 mx-auto my-auto">
+                              <p>Latest photos of Mars hemisphere. Images are scraped from <a href="https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars">USGS Astrogeology site</a>.
                               </p>
                             </div>
                           </div>
                         </div>
-                        <div class="col-lg-4 mb-4">
+                        <div class="col-lg-6 mb-4">
                           <div class="row">
-                            <div class="col-lg-12 mx-auto my-auto">
-                              <img class="img-fluid" src="img/port_img/date/capture.png" alt="Movie views">
+                            <div class="col-lg-12 mx-auto my-auto mb-4">
+                              <img class="img-fluid" src="img/port_img/mars/weather_before_scraping.PNG" alt="weather page">
                             </div>
-                            <div class="col-lg-12 mx-auto my-auto text-left">
-                              <p>Film/Animation videos gained more views approaching February as Oscar was held in the same month. Another rise in views happened in May when major movies such as infinity war and deadpool 2 are released.</p>
+                            <div class="col-lg-12 mx-auto my-auto">
+                              <p>Latest Mars weather section. Featured image is scraped from <a href="https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars">Jet Propulsion Laboratory</a>. Weather data is scraped from <a href="https://twitter.com/marswxreport?lang=en"> Mars Weather Twitter account</a>.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                          <div class="row">
+                            <div class="col-lg-12 mx-auto my-auto mb-4">
+                              <img class="img-fluid" src="img/port_img/mars/facts_table.PNG" alt="facts table section">
+                            </div>
+                            <div class="col-lg-12 mx-auto my-auto">
+                              <p>Mars fact section. Data table is scraped from <a href="https://space-facts.com/mars/">Space Facts</a>.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                          <div class="row">
+                            <div class="col-lg-12 mx-auto my-auto mb-4">
+                              <img class="img-fluid" src="img/port_img/mars/news_before_scraping.PNG" alt="news page">
+                            </div>
+                            <div class="col-lg-12 mx-auto my-auto">
+                              <p>Latest Mars news section. Data is scraped from <a href="https://mars.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest"> NASA Mars News Site</a>.
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
+                      <hr class="mb-4">
+                      <h2 class="mb-4">
+                        <i class="fa fa-cog mr-3"></i>Scrape New Data
+                      </h2>
+                      <div class="row">
+                        <div class="col-lg-12 mx-auto mb-4 border">
+                          <img class="img-fluid" src="img/port_img/mars/index_new.png" alt="index page">
+                        </div>
+                        <div class="col-lg-12 mx-auto my-auto mb-4">
+                          <p>If we hit the "scrape new data" button, the web app will start collecting the latest data from various websites and update the site. Compare the photos below to the ones above to see the updated information.</p>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                          <div class="row">
+                            <div class="col-lg-12 mx-auto my-auto mb-4">
+                              <img class="img-fluid" src="img/port_img/mars/hem_after.PNG" alt="weather page">
+                            </div>
+                            <div class="col-lg-12 mx-auto my-auto">
+                              <p>Photos of Mars hemisphere after scraping.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                          <div class="row">
+                            <div class="col-lg-12 mx-auto my-auto mb-4">
+                              <img class="img-fluid" src="img/port_img/mars/weather_after.PNG" alt="weather after">
+                            </div>
+                            <div class="col-lg-12 mx-auto my-auto">
+                              <p>Mars weather section after scraping.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-12 mx-auto mb-4 border">
+                          <img class="img-fluid" src="img/port_img/mars/news_after.png" alt="index page">
+                        </div>
+                        <div class="col-lg-12 mx-auto my-auto mb-4">
+                          <p>Latest Mars News section after scraping.</p>
+                        </div>
+
+                      </div>
+
                       <div class="text-center mt-4">
-                        <a class="btn btn-secondary btn-lg rounded-pill" href="https://github.com/amstqq/trending_videos_analysis" target="_blank">
+                        <a class="btn btn-secondary btn-lg rounded-pill responsive-width" href="https://github.com/amstqq/mars_web_scraping_project" target="_blank">
                           <i class="fa fa-link mr-2"></i>
-                          Github repository for this project
+                          Github Repository
                         </a>
                       </div>
                       <hr class="star-dark mb-5">
@@ -425,25 +517,49 @@
                 </div>
               </div>
 
-              <!-- Portfolio Modal 2 -->
-              <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+              <!-- Portfolio Modal 4 -->
+              <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
                 <div class="portfolio-modal-dialog bg-white">
                   <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
                     <i class="fa fa-3x fa-times"></i>
                   </a>
                   <div class="container text-center">
                     <div class="row">
-                      <div class="col-lg-8 mx-auto">
-                        <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+                      <div class="col-lg-10 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">Weather API and JSON Traversals</h2>
                         <div class="text-center mt-4">
-                          <a class="btn btn-secondary btn-lg rounded-pill" href="http://github.com" target="_blank">
+                          <a class="btn btn-secondary btn-lg rounded-pill responsive-width" href="https://github.com/amstqq/city_weather_analysis" target="_blank">
                             <i class="fa fa-link mr-2"></i>
-                            Github repository for this project
+                            Github Repository
                           </a>
                         </div>
                         <hr class="star-dark mb-5">
-                        <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-8 mx-auto">
+                        <p class="font-weight-light font-italic mb-4"><span class="font-weight-bold">Skills</span>: Web API, Piercing Data in JSON Format, Python Requests, Visualization Dashboard, CityPy</p>
+                        <img class="img-fluid mb-5" src="img/port_img/cloud.png" alt="cloud">
+                        <p class="mb-4">
+                          This project uses OpenWeatherMap API, Python requests, and JSON traversals to obtain weather data about 500+ random cities across the globe and create a representative model of weather trend. A visualization dashboard website is built with bootstrap using data collected from OpenWeatherMapAPI. The website contains all charts and graphs, explanations for weather trends, and data used to create the visualizations. Check out <a href="https://github.com/amstqq/city_weather_analysis"> Github repository of this project</a> for more information.
+                        </p>
+                        <hr class="mb-4">
+                        <h2 class="mb-4">
+                          <i class="fa fa-cog mr-3"></i>API Calls and Visualization Dashboard
+                        </h2>
+                        <img class="img-fluid mb-4" src="weather_html/Resources/assets/images/Fig1.png" alt="tempearture figure">
+                        <p class="mb-5">
+                          All weather data is obtained from <a href="https://openweathermap.org/api">OpenWeatherMap API</a>. A list of more than 500 Random cities are selected based on latitude and longitude and a weather check is performed on each of the cities using a series of successive API calls. The visualization dashboard can be found <a href="weather_html/index.html">here</a>.
+                        </p>
+
+
+                        <div class="text-center mt-4">
+                          <a class="btn btn-secondary btn-lg rounded-pill responsive-width" href="https://github.com/amstqq/city_weather_analysis" target="_blank">
+                            <i class="fa fa-link mr-2"></i>
+                            Github Repository
+                          </a>
+                        </div>
+                        <hr class="star-dark mb-5">
                         <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                           <i class="fa fa-close"></i>
                           Close Project</a>
@@ -461,17 +577,121 @@
                     </a>
                     <div class="container text-center">
                       <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                          <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+                        <div class="col-lg-10 mx-auto">
+                          <h2 class="text-secondary text-uppercase mb-0">Honolulu Climate SQL Database and FLask API</h2>
                           <div class="text-center mt-4">
-                            <a class="btn btn-secondary btn-lg rounded-pill" href="http://github.com" target="_blank">
+                            <a class="btn btn-secondary btn-lg rounded-pill responsive-width" href="https://github.com/amstqq/climate_sql_database_project" target="_blank">
                               <i class="fa fa-link mr-2"></i>
-                              Github repository for this project
+                              Github Repository
                             </a>
                           </div>
                           <hr class="star-dark mb-5">
-                          <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
-                          <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                          <p class="font-weight-light font-italic mb-4"><span class="font-weight-bold">Skills</span>: SQLAlchemy, SQL Database, ORM Queries, Flask API</p>
+                          <img class="img-fluid mb-5" src="img/port_img/hawaii.png" alt="hawaii">
+                          <p class="mb-4">This project uses SQLAlchemy ORM queries in Python to explore and create visualizations of Honolulu climate database containing temperature and precipitation data. SQLAlchemy is a SQL toolkit in Python that allows control of SQL database in Python scripts. Then, a Flask API is designed to assess the climate database through SQLAlchemy and return the results in json format.
+                          </p>
+                          <hr class="mb-4">
+                          <h2 class="mb-4">
+                            <i class="fa fa-cog mr-3"></i>Climate Data Analysis
+                          </h2>
+                          <div class="row">
+                            <div class="col-lg-6 mb-4">
+                              <div class="row">
+                                <div class="col-lg-12 mx-auto my-auto mb-4">
+                                  <img class="img-fluid" src="img/port_img/climate/prcp.PNG" alt="precipitation">
+                                </div>
+                                <div class="col-lg-12 mx-auto my-auto">
+                                  <p>The graph shows precipitation data from two years ago to today. The data is obtained by reflecting SQL database, linking it to Python, and query the desired data.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                              <div class="row">
+                                <div class="col-lg-12 mx-auto my-auto mb-4">
+                                  <img class="img-fluid" src="img/port_img/climate/temp.PNG" alt="temperature">
+                                </div>
+                                <div class="col-lg-12 mx-auto my-auto">
+                                  <p>Query temperature observation data and plot the results as a histogram.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                              <div class="row">
+                                <div class="col-lg-12 mx-auto my-auto mb-4">
+                                  <img class="img-fluid" src="img/port_img/climate/avg.PNG" alt="avg">
+                                </div>
+                                <div class="col-lg-12 mx-auto my-auto">
+                                  <p>The average temperature of a certain range of data is plotted. A function is built in Python to accept start and end dates as parameters and return minimum, average, and maximum temperature for that range of dates.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                              <div class="row">
+                                <div class="col-lg-12 mx-auto my-auto mb-4">
+                                  <img class="img-fluid" src="img/port_img/climate/tfunc.PNG" alt="tfunc">
+                                </div>
+                                <div class="col-lg-12 mx-auto my-auto">
+                                  <p>This graph is obtained by plotting the daily minimum, average, and maximum tempeature for a given range of dates.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <hr class="mb-4">
+                          <h2 class="mb-4">
+                            <i class="fa fa-cog mr-3"></i>Flask API
+                          </h2>
+                          <div class="row">
+                            <div class="col-lg-12 mx-auto mb-4 border">
+                              <img class="img-fluid" src="img/port_img/climate/index.PNG" alt="index page">
+                            </div>
+                            <div class="col-lg-12 mx-auto my-auto mb-4">
+                              <p>This page is the default route of Flask API. It gives a complete list of available routes and data that can be assessed using this API.</p>
+                            </div>
+                            <div class="col-lg-12 mx-auto mb-4 border">
+                              <img class="img-fluid" src="img/port_img/climate/range.PNG" alt="index page">
+                            </div>
+                            <div class="col-lg-12 mx-auto my-auto mb-4">
+                              <p>Minimum, average, maximum tempeature in a specific date range is returned by inputting a 'start_date' and 'end_date' in the route <code>/api/v1.0/start_date/end_date</code>. For example, the temperature data in this photo is from the route <code>/api/v1.0/2016-08-23/2017-04-23</code>.</p>
+                            </div>
+                            <div class="col-lg-5 mb-4">
+                              <div class="row">
+                                <div class="col-lg-12 mx-auto my-auto mb-4">
+                                  <img class="img-fluid" src="img/port_img/climate/flask_prcp.PNG" alt="flask precipitation">
+                                </div>
+                                <div class="col-lg-12 mx-auto my-auto">
+                                  <p>Precipitation data in the last two years is returned in the route <code>/api/v1.0/precipitation</code>.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-7 mb-4">
+                              <div class="row">
+                                <div class="col-lg-12 mx-auto my-auto mb-4">
+                                  <img class="img-fluid" src="img/port_img/climate/stations.PNG" alt="weather after">
+                                </div>
+                                <div class="col-lg-12 mx-auto my-auto">
+                                  <p>A list of all tempeature recording stations is retured in the route <code>/api/v1.0/stations</code>.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="text-center mt-4">
+                            <a class="btn btn-secondary btn-lg rounded-pill responsive-width" href="https://github.com/amstqq/climate_sql_database_project" target="_blank">
+                              <i class="fa fa-link mr-2"></i>
+                              Github Repository
+                            </a>
+                          </div>
+                          <hr class="star-dark mb-5">
                           <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                             <i class="fa fa-close"></i>
                             Close Project</a>
@@ -481,105 +701,22 @@
                     </div>
                   </div>
 
-                  <!-- Portfolio Modal 4 -->
-                  <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
-                    <div class="portfolio-modal-dialog bg-white">
-                      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-                        <i class="fa fa-3x fa-times"></i>
-                      </a>
-                      <div class="container text-center">
-                        <div class="row">
-                          <div class="col-lg-8 mx-auto">
-                            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-                            <div class="text-center mt-4">
-                              <a class="btn btn-secondary btn-lg rounded-pill" href="http://github.com" target="_blank">
-                                <i class="fa fa-link mr-2"></i>
-                                Github repository for this project
-                              </a>
-                            </div>
-                            <hr class="star-dark mb-5">
-                            <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
-                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                              <i class="fa fa-close"></i>
-                              Close Project</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
 
-                    <!-- Portfolio Modal 5 -->
-                    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
-                      <div class="portfolio-modal-dialog bg-white">
-                        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-                          <i class="fa fa-3x fa-times"></i>
-                        </a>
-                        <div class="container text-center">
-                          <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-                              <div class="text-center mt-4">
-                                <a class="btn btn-secondary btn-lg rounded-pill" href="http://github.com" target="_blank">
-                                  <i class="fa fa-link mr-2"></i>
-                                  Github repository for this project
-                                </a>
-                              </div>
-                              <hr class="star-dark mb-5">
-                              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
-                              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                                <i class="fa fa-close"></i>
-                                Close Project</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                  <!-- Bootstrap core JavaScript -->
+                  <script src="vendor/jquery/jquery.min.js"></script>
+                  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-                      <!-- Portfolio Modal 6 -->
-                      <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
-                        <div class="portfolio-modal-dialog bg-white">
-                          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-                            <i class="fa fa-3x fa-times"></i>
-                          </a>
-                          <div class="container text-center">
-                            <div class="row">
-                              <div class="col-lg-8 mx-auto">
-                                <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-                                <div class="text-center mt-4">
-                                  <a class="btn btn-secondary btn-lg rounded-pill" href="http://github.com" target="_blank">
-                                    <i class="fa fa-link mr-2"></i>
-                                    Github repository for this project
-                                  </a>
-                                </div>
-                                <hr class="star-dark mb-5">
-                                <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                                  <i class="fa fa-close"></i>
-                                  Close Project</a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                  <!-- Plugin JavaScript -->
+                  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+                  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-                        <!-- Bootstrap core JavaScript -->
-                        <script src="vendor/jquery/jquery.min.js"></script>
-                        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                  <!-- Contact Form JavaScript -->
+                  <script src="js/jqBootstrapValidation.js"></script>
+                  <script src="js/contact_me.js"></script>
 
-                        <!-- Plugin JavaScript -->
-                        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-                        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+                  <!-- Custom scripts for this template -->
+                  <script src="js/freelancer.min.js"></script>
 
-                        <!-- Contact Form JavaScript -->
-                        <script src="js/jqBootstrapValidation.js"></script>
-                        <script src="js/contact_me.js"></script>
+                </body>
 
-                        <!-- Custom scripts for this template -->
-                        <script src="js/freelancer.min.js"></script>
-
-                      </body>
-
-                      </html>
+                </html>

@@ -380,15 +380,3 @@ a:focus, a:hover, a:active {
   background-color: #1a252f;
   border-color: #1a252f;
 }
-
-@media (max-width: 992px) {
-  .text-left {
-    text-align: center !important;
-  }
-}
-
-@media (max-width: 576px) {
-  .responsive-width {
-      font-size: 3vw;
-  }
-}
